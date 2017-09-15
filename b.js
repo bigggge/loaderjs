@@ -5,10 +5,10 @@
  */
 
 define('b', ['c'], function () {
-    console.log('--- b.js ---')
-    return {
-        print: function () {
-            console.log('--- b print ---')
-        }
+  console.log('--- b.js ---');
+  return {
+    print: function () {
+      console.log('--- b print ---');
     }
+  };
 });
